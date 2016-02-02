@@ -1,0 +1,13 @@
+{
+    "name": "entwicklungshilfe/codeception-typo3-be",
+    "description": "Backend Acceptance Tests",
+    "require": {
+        "codeception/codeception": "~2.1"
+    },
+    "authors": [
+        {
+            "name": "Roland Golla",
+            "email": "roland.golla@entwicklungshilfe.nrw"
+        }
+    ]
+}
