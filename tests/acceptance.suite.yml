@@ -10,6 +10,7 @@ modules:
         - PhpBrowser
         - WebDriver
         - \Helper\Acceptance
+        - Db
     config:
       PhpBrowser:
         url: 'http://www.entwicklungshilfe.nrw.ehnrwwebvisum.local.wmdb.de'
@@ -17,6 +18,13 @@ modules:
         window_size: 1024x768
         url: 'http://www.entwicklungshilfe.nrw.ehnrwwebvisum.local.wmdb.de'
         browser: 'chrome'
+      Db:
+        dsn: 'mysql:host=127.0.0.1;dbname=hilfe_live'
+        user: 'root'
+        password: 'codeception'
+        dump: tests/_data/dump.sql
+        populate: true
+        cleanup: false
 extensions:
     enabled:
         - Codeception\Extension\Recorder

@@ -1,1 +1,4 @@
-/* Replace this file with actual dump of your database */
+INSERT INTO `be_users` (`uid`, `pid`, `tstamp`, `username`, `password`, `admin`, `usergroup`, `disable`, `starttime`, `endtime`, `lang`, `email`, `db_mountpoints`, `options`, `crdate`, `cruser_id`, `realName`, `userMods`, `allowed_languages`, `uc`, `file_mountpoints`, `file_permissions`, `workspace_perms`, `lockToDomain`, `disableIPlock`, `deleted`, `TSconfig`, `lastlogin`, `createdByAction`, `usergroup_cached_list`, `workspace_id`, `workspace_preview`, `category_perms`)
+VALUES
+	('', 0, 1454676515, 'cc-admin', '$P$C7Iu9Rrf90y1qafOuZDlMJ6O5xUiQc1', 1, '', 0, 0, 0, '', '', '', 3, 1454676396, 2, '', '', '', NULL, '', 'readFolder,writeFolder,addFolder,renameFolder,moveFolder,deleteFolder,readFile,writeFile,addFile,renameFile,moveFile,deleteFile', 1, '', 0, 0, '', 0, 0, NULL, 0, 1, ''),
+	('', 0, 1454676685, 'cc-redakteur', '$P$CYEQXjmhRtjHwMiameqU9Jrdz7LenB/', 0, '', 0, 0, 0, '', '', '', 3, 1454676685, 2, '', '', '', NULL, '', 'readFolder,writeFolder,addFolder,renameFolder,moveFolder,deleteFolder,readFile,writeFile,addFile,renameFile,moveFile,deleteFile', 1, '', 0, 0, '', 0, 0, NULL, 0, 1, '');
